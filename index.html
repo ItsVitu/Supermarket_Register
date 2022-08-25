@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <title> SuperMarket</title>
+    <link rel="icon" type="image/png" href="mercado.png"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="Utf-8"/>
+    <meta charset="description" content="Tela de caadastros"/>
+    <meta charset="keywords"    content="mercado,cadastros,super mercado"/>
+    <meta charset="author"      content="vitor"/>
+    <meta charset="viewport" content="width-device-width,initial-scale-1.0,maximus-scale-1.0"/>
+    </head>
+    <body>
+        <header>
+            <h2>Lista de Produtos Para cadastros</h2>
+        </header>
+        <div class="lista-cadastro">
+            <input type="text" placeholder="nome do produto..."
+            name="nome_produto"  required />
+            <input type="number" name="price" placeholder="valor do produto" step="0.01"
+            title="This should be a number with up to 2 decimal places.">
+
+
+            <input type="submit" name="acao" value="Cadastrar" />
+        </div>
+
+        <div class="lista-produtos">
+            
+           
+        </div>
+ 
+        <div class="soma-produto">
+            <h1>Total: R$0</h1>
+        </div>
+
+        <button name="limpar">Limpar</button>
+
+        <script src="supermercado.js"></script>
+    </body>
+</html>
